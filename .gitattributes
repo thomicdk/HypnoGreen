@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+*        text=auto
+
+# Source files
+*.cs     text diff=csharp
+*.html   text diff=html
+*.css    text
+*.less   text
+*.js     text
+*.json   text
+*.ts     text
+
+# Project files
+*.csproj 	text merge=union
+*.njsproj 	text merge=union
+*.sln    	text merge=union eol=crlf
